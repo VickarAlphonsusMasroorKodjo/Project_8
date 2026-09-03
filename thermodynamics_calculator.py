@@ -244,7 +244,7 @@ elif analysis_type == "First Law of Thermodynamics":
     
     # System properties
     st.sidebar.markdown("#### System Properties")
-    mass = st.sidebar.slider("Mass of Gas [kg]:", 0.001, 10, 1, 0.1)
+    mass = st.sidebar.slider("Mass of Gas [kg]:", 0.001, 10.0, 1.0, 0.1)
     specific_heat_v = st.sidebar.slider("Specific Heat Cv [J/kg·K]:", 100, 2000, 717, 50)
     
     st.sidebar.markdown("#### Energy Transfer")
